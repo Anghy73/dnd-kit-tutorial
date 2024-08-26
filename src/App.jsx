@@ -40,7 +40,7 @@ function App () {
           collisionDetection={closestCenter}
       // detecta si un elemento a terminado de soltarse
           onDragEnd={handleDragEnd}
-          modifiers={[restrictToVerticalAxis, restrictToWindowEdges]}
+          // modifiers={[restrictToVerticalAxis, restrictToWindowEdges]}
         >
           <h1>User List</h1>
 
@@ -59,6 +59,7 @@ function App () {
         }
           </SortableContext>
         </DndContext>
+        <h2 className='text-sky-400 text-4xl'>Hola</h2>
       </div>
     </div>
   )
